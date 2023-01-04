@@ -38,8 +38,6 @@ _expression_ A variable that represents a **[Range](excel.range(object).md)** ob
 
 ## Return value
 
-Win + V 查看剪贴板
-
 ## Example
 
 ```python
@@ -56,5 +54,7 @@ ws.Range(Range01).CopyPicture(xlScreen, xlBitmap)
 time.sleep(1)
 ws.UsedRange.CopyPicture(xlScreen, xlBitmap)
 ```
+
+Win + V 查看剪贴板
 
 ![](https://github.com/ak19mk/VBA-Docs/blob/main/Language/412341234.png)
