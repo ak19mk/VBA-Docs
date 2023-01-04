@@ -52,3 +52,5 @@ ws.Range(Range01).CopyPicture(xlScreen, xlBitmap)
 time.sleep(1)
 ws.UsedRange.CopyPicture(xlScreen, xlBitmap)
 ```
+
+![](https://github.com/ak19mk/VBA-Docs/blob/main/Language/412341234.png)
