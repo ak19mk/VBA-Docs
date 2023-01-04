@@ -16,6 +16,10 @@ ms.localizationpriority: medium
 
 Copies the selected object to the Clipboard as a picture. **Variant**.
 
+Range.CopyPicture method (Excel) | Microsoft Learn
+
+https://learn.microsoft.com/en-us/office/vba/api/excel.range.copypicture
+
 
 ## Syntax
 
