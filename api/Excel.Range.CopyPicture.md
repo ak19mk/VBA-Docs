@@ -34,7 +34,7 @@ _expression_ A variable that represents a **[Range](excel.range(object).md)** ob
 
 ## Return value
 
-Variant
+Win + V 查看剪贴板
 
 ## Example
 
