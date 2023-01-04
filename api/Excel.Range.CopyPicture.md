@@ -52,7 +52,3 @@ ws.Range(Range01).CopyPicture(xlScreen, xlBitmap)
 time.sleep(1)
 ws.UsedRange.CopyPicture(xlScreen, xlBitmap)
 ```
-
-
-
-[!include[Support and feedback](~/includes/feedback-boilerplate.md)]
