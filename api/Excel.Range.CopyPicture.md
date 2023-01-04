@@ -36,6 +36,22 @@ _expression_ A variable that represents a **[Range](excel.range(object).md)** ob
 
 Variant
 
+## Example
+
+```python
+import win32com.client
+import time
+xlapp = win32com.client.Dispatch("excel.Application")
+xlapp.Visible = 1
+xlapp.DisplayAlerts = False
+ws = xlapp.ActiveSheet
+Range01 = "A1:H2"
+xlScreen = 1
+xlBitmap = 2
+ws.Range(Range01).CopyPicture(xlScreen, xlBitmap)
+time.sleep(1)
+ws.UsedRange.CopyPicture(xlScreen, xlBitmap)
+```
 
 
 
